@@ -16,12 +16,15 @@ Follow the steps in the AWS CLI website, [Website Link](https://docs.aws.amazon.
 When you start your AWS Learner Academy select "AWS Details". Copy and paste those into ~/.aws/credentials.
 
 **Setting up files**
+
 Create a new folder for your Minecraft server. Create a main.tf and add the code from this project. Then create a minecraft_server_config.sh file and add the code from this project. 
 
 **Deploy Server**
+
 working on it
 
 **Connecting to Server**
+
 Go to the home page of minecraft. Select Multiplayer button. Then click Add Server. Type in the IP Address of the EC2 instance. 
 
 
