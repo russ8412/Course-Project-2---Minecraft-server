@@ -11,6 +11,7 @@ terraform {
 
 provider "aws" {
   region  = "us-west-2"
+  profile = "default"
 }
 
 resource "aws_instance" "Minecraft_server" {
