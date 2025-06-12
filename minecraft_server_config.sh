@@ -4,7 +4,7 @@ sudo yum install curl -y
 
 wget https://download/oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz
 
-mkdir -p /home/ec2-use/minecraft
+mkdir -p /home/ec2-user/minecraft
 cd /home/ec2-user/minecraft
 
 wget -O server.jar $(wget -qO- https://www.minecraft.net/en-us/download/server | grep -o 'https://launcher.mojang.com/v1/objects/[^\"]*/server.jar' | head -n 1)
